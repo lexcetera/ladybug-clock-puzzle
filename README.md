@@ -4,7 +4,7 @@ A ladybug alights on the 12 of a cuckoo clock. Whenever the clock strikes, she m
 
 National Museum of Mathematics. (2026, January). Monthly Mindbenders: January, 2026 [PDF]. MoMath. https://momath.org/wp-content/uploads/2026/01/Monthly-Mindbenders-January-2026.pdf
 
-![Ladybug Clock Puzzle](ladybug-clock-puzzle.jpg)
+![Ladybug Clock Puzzle](ladybug-clock-puzzle.png)
 
 # The Mathematical Solution
 
