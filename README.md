@@ -30,6 +30,10 @@ The plot.py script generates plots at different y-limits to further see the fluc
 
 ![Plot with no y-limit](plots/plot_no_y-limit.png)
 
-Plot at y-limit(0.0899-0.0919)
+## Plot at y-limit(0.0899-0.0919)
 
 ![Plot with y-limit at 0.0899-0.0919](plots/plot_y-limit_0.08-0.10.png)
+
+# Convergence of the Monte Carlo Simulation 
+
+As the number of trials increases, the estimated probability for the last unvisited number converges to the theoretical value. In other words, as the number of trials approaches infinity, the Monte Carlo estimate also approaches 1/11. This demonstrates that with a sufficiently large number of simulations, the random-walk behavior of the ladybug aligns closely with the mathematical solution derived from symmetry and Markov chain analysis.
