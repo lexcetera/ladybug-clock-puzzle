@@ -16,7 +16,7 @@ In this project, I used Python to create a Monte Carlo simulation of the Ladybug
 
 # The Results 
 
-The table below shows the estimated probability that a specific number (e.g., 8) is the last visited, calculated using Monte Carlo simulations for increasing numbers of trials. The standard error at each checkpoint was computed using the binomial formula:
+The table below shows the estimated probability that a specific number (e.g., 6) is the last visited, calculated using Monte Carlo simulations for increasing numbers of trials. The standard error at each checkpoint was computed using the binomial formula:
 
 ![Standard Error Formula](formula.jpg)
 
