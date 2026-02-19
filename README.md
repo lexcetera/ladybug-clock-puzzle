@@ -4,6 +4,8 @@ A ladybug alights on the 12 of a cuckoo clock. Whenever the clock strikes, she m
 
 National Museum of Mathematics. (2026, January). Monthly Mindbenders: January, 2026 [PDF]. MoMath. https://momath.org/wp-content/uploads/2026/01/Monthly-Mindbenders-January-2026.pdf
 
+![Ladybug Clock Puzzle](ladybug-clock-puzzle.jpg)
+
 # The Mathematical Solution
 
 The mathematical solution treats the ladybug’s movement as a random walk and Markov process along the clock. By considering a “run” of consecutive painted numbers, we can reduce the infinite wandering of the ladybug to a finite problem: the probability  p(x) that the ladybug reaches one end of a run before the other satisfies p(x) = x/n, showing that the probability varies linearly along the run. Using this insight, the process can be analyzed as a series of independent probability steps, calculating the chance that each number is visited in a particular order without “wipeouts.” Multiplying these probabilities for each stage shows that the probability the last unvisited number is 6 equals  1/11, consistent with the symmetry of the clock and the Markov chain analysis.
