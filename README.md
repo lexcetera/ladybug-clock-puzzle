@@ -12,7 +12,7 @@ The mathematical solution treats the ladybug’s movement as a random walk and M
 
 # Using the Monte Carlo Simulation 
 
-In this project, I used Python to create a Monte Carlo simulation of the Ladybug Clock Puzzle estimating the probability that a specific number between 1-11 is missing after the ladybug completes its random moves around a 12-hour clock. 
+The clock.py script performs a simulation to estimate the probability that a specific number, such as 6, is the last number visited by the ladybug. Starting at 12 o’clock, the ladybug moves randomly one step clockwise or counterclockwise at each iteration, and the script tracks which numbers have been visited. Once 11 numbers have been visited, leaving one “missing” number, the script checks whether this number matches the target and updates a counter accordingly. The simulation is repeated for a large number of trials, and at predefined checkpoints, the current estimated probability is calculated and saved to a CSV file (results.txt) for further analysis and visualization. This approach allows the Monte Carlo estimate to converge toward the theoretical probability of 1/11.
 
 # The Results 
 
