@@ -16,6 +16,12 @@ In this project, I used Python to create a Monte Carlo simulation of the Ladybug
 
 # The Results 
 
+The table below shows the estimated probability that a specific number (e.g., 8) is the last visited, calculated using Monte Carlo simulations for increasing numbers of trials. The standard error at each checkpoint was computed using the binomial formula:
+
+![Standard Error Formula](formula.jpg)
+
+where 𝑝 is the estimated probability and N is the number of simulations. Additionally, the table includes the absolute difference between the simulation estimates and the theoretical probability 1/11, which quantifies how close the Monte Carlo results are to the expected value. As the number of trials increases, both the standard error and the absolute difference decrease, demonstrating convergence to the theoretical probability.
+
 |    Trials | Probability | Std. Error | Distance to 1/11 |
 | --------: | ----------- | ---------- | ---------------- |
 |         1 | 0.000000    | 0.000000   | -0.090909        |
